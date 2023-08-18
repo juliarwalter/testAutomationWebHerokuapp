@@ -12,7 +12,7 @@ public class _HomePage {
     }
 
     public ABTesting clickABTesting(){
-        driver.findElement(By.cssSelector("[href='/abtest']"));
+        driver.findElement(By.cssSelector("[href='/abtest']")).click();
         return new ABTesting(driver);
     }
 }

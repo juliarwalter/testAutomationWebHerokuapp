@@ -9,7 +9,7 @@ import java.time.Duration;
 
 public class BaseTest {
 
-    private WebDriver driver;
+    public WebDriver driver;
     @BeforeEach
     public void BeforeEach(){
         System.setProperty("webdriver.chrome.driver", "C:\\driversWeb\\chromedriver.exe");
